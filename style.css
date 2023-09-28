@@ -1,20 +1,106 @@
-.container{
-    width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-footer{
-    padding: 10px;
-    background-color: #222222;
-    border: 1px solid #a2a9b1;
-    width: 300px;
-    float: right;
-    color: white;
-}
-
- header{
-    font-size: 18px;
-    float: left;
-    color: white;
-}
-    
+body{ 
+    box-sizing: border-box; 
+    margin: 0 auto; 
+    font-size: 22px; 
+} 
+a{ 
+    text-decoration: none; 
+} 
+ul{ 
+    list-style: none; 
+} 
+.container{ 
+    width: 1200px; 
+    padding: 0 15px; 
+    margin: 0 auto; 
+} 
+ 
+.header{ 
+    background-color: #222222; 
+    font-size: 24px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+} 
+.header-container, 
+.footer-container{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+.header-logo{ 
+    font-size: 30px; 
+    color: white; 
+    font-weight: 700; 
+} 
+.header-logo:hover, 
+.header-logo:focus{ 
+    color: beige; 
+} 
+.header-list{ 
+    width: 700px; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+.header-link{ 
+    color: white; 
+    font-size: 26px; 
+    font-weight: 600; 
+} 
+.header-link:hover, 
+.header-link:focus{ 
+    color: bisque; 
+} 
+ 
+ 
+.about{ 
+    padding-top: 80px; 
+    padding-bottom: 80px; 
+} 
+.about-title{ 
+    text-align: center; 
+} 
+.about-img{ 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 50px; 
+} 
+.about-text{ 
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: gray; 
+    font-weight: 700; 
+} 
+.about-item{ 
+    text-align: center; 
+    margin-bottom: 10px; 
+} 
+ 
+.footer{ 
+    background-color: #222222; 
+    font-size: 24px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+} 
+ 
+ 
+ 
+/* Work */ 
+.work{ 
+    padding-top: 80px; 
+    padding-bottom: 80px; 
+} 
+.work-list{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 30px; 
+} 
+.work-item{ 
+    border: 15px solid #55c5e9; 
+    padding: 30px; 
+    background: #666; 
+} 
+.work-item:hover, 
+.work-item:focus{ 
+    border: 15px solid #f8ed6e; 
+}    
